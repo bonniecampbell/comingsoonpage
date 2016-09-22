@@ -48,3 +48,58 @@ footer p {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
+
+@media only screen and (min-width: 20em) {
+
+  main h1 {
+    font-size: 1em;
+  }
+
+  main h2 {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 28em) {
+
+  main h1 {
+    font-size: 1.2em;
+  }
+
+  main h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 43em) {
+
+  main {
+    padding: 10em;
+  }
+}
+
+@media only screen and (min-width: 54em) {
+
+  main {
+    padding: 15em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  main {
+    padding: 7em;
+  }
+}
+
+@media only screen and (min-width: 74em) {
+
+  main h1 {
+    font-size: 2em;
+    padding-bottom: 0.2em;
+  }
+
+  main h2 {
+    font-size: 2em;
+  }
+}
