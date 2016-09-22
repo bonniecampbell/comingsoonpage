@@ -11,9 +11,40 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  background-color: #000;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+}
+
+main {
+  background-color: #2F1A45;
+  padding: 7em;
+}
+
+main h1{
+  color: white;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+}
+
+main h2{
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #F8F2E7;
+  padding: 5em;
+}
+
+footer p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
 }
